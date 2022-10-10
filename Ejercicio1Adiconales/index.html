@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        .labels{
+            display: inline;
+            float: left;
+            padding-right: 5px;
+        }
+        .inputs{
+            display: inline;
+            margin-top: 15px;
+        }
+       form{
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            border: 1px solid black;
+            width: 660px;
+            padding-top: 20px;
+            padding-left: 50px;
+            padding-right: 50px;
+            padding-bottom: 10px;
+            margin-left: 300px;
+            margin-right: 300px;
+            margin-top: 50px;
+            margin-bottom: 50px;
+       }
+       #iText,#iPass{
+        height: 25px;
+       }
+       p{
+          padding-bottom: 0;
+          padding-left: 250px;
+          padding-right: 250px;
+       }
+       .inputsBCC:hover{
+            background-color: rgb(231, 231, 231) !important;
+        }
+        #txtArea{
+            background-image: url(img/fondo.jpg);
+            background-repeat: no-repeat;
+            background-size: 100% 100%;
+        }
+    </style>
+    <title>Ejercicio 1 Adicional</title>
+</head>
+<body>
+    <form action="#" method="get" name="my_form">
+        <div class="labels">
+            <label for="iText">Input Text:</label><br><br>
+            <label for="iPass">Input Password:</label><br><br>
+            <label for="iCheck">Checkbox:</label><br><br><br>
+            Radio:<br><br>
+            <label for="txtArea">TextArea:</label><br><br><br><br>
+            <label for="sShort">Select (with shot options):</label><br><br>
+            <label for="sBig">Select (with big options):</label><br><br>
+            <label for="sumitB">Submit Button:</label><br><br>
+        </div>
+        <div class="inputs">
+            <input type="text" class="inputsBCC" name="iText" id="iText" size="20" required><br>
+            <input type="password" name="iPass" class="inputsBCC" id="iPass" required size="20"><br><br>
+            <input type="checkbox" name="iCheck" id="iCheck" value="I like it" class="insputsBCC"><label for="iCheck"> I like it</label><br><br>
+            <input type="radio" name="oui" id="oui" class="inputsBCC"><label for="oui">oui</label><input type="radio" name="non" id="non" class="insputsBCC"><label for="non">non</label><br><br>
+            <textarea rows="4" cols="50" id="txtArea" class="inputsBCC"></textarea><br><br>
+            <select name="sShort" id="sShort" class="inputsBCC"></select><br><br>
+            <select name="sBig" id="sBig" class="inputsBCC">
+                <option value="Big Option test line with more words">Big Option test line with more words</option>
+            </select><br><br>
+        <input type="submit" value="Send"><br><br>
+        </div>
+        <p>jqTransform</p>
+    </form>
+    
+</body>
+</html>

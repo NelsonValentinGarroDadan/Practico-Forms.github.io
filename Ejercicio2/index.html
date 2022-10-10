@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicio 2</title>
+    <style>
+        form{
+            border-bottom: 1px solid black ;
+            border-left: 1px solid black ;
+            border-right: 1px solid black ;
+            margin-bottom: 15%;
+            margin-top: 15%;
+            margin: 0;
+            margin-right: 600px;
+            margin-top: 50px;
+            margin-left: 150px;
+            padding-left: 20px ;
+        }
+    </style>
+</head>
+<body>
+    <form action="#" name="mi_form" method="get">
+    <h1>HTML Validation Serverce</h1>
+    <p>Welcome to the W3C HTML Validation Servece. It checks HTML documents for confon<br> XHTML Reconmmendations and other HTML standards. Recent update include:</p>
+ 
+    <ul>
+        <li><a href="">Added file upload feature</a> (April 28, 2000</li>
+        <li><a href="">Added support for HTML 4.01;updated XHTML 1.0 DTDs</a> (August 24, 1999)</li>
+        <li><a href="">more...</a></li>
+    </ul>
+    <p>Enter the addres(<a href="">URL</a>) of a document you would like to validate:</p>
+    
+        <label for="address">Addres: </label><input type="url" name="address" id="address" size="50" required><br>
+        <input type="checkbox" name="opcion1" id="opcion1" value="Show source input" checked><label for="opcion1"> Show source input</label>
+        <input type="checkbox" name="opcion2" id="opcion2" value="Show an outline of this document" ><label for="opcion2"> Show an outline of this document</label><br>
+        <input type="checkbox" name="opcion3" id="opcion3" value="Show parse tree" ><label for="opcion3"> Show parse tree</label>
+        <input type="checkbox" name="opcion4" id="opcion4" value="exclude attributes from the parse tree" ><label for="opcion4"> exclude attributes from the parse tree</label><br>
+        <input type="submit" value="Validate this page">
+        <input type="reset" value="Reset this form">
+    </form>
+</body>
+</html>

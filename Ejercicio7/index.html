@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        form{
+            border: 1px solid black;
+            margin-right: 0;
+            width: 650px;
+        }
+    </style>
+    <title>Ejercicio7</title>
+</head>
+<body>
+    <form name="my_form" method="get">
+        <label for="nbre">Nombre: </label><input type="text" name="nbre" id="nbre" maxlength="20" required>
+        <label for="F.Nac">F.Nac: </label><input type="date" name="F.Nac" id="F.Nac" required>
+        <label for="dni">DNI: </label><input type="number" name="dni" id="dni" maxlength="8" min="5000000" size="10"  required><br><br>
+        <label for="apellido">Apellidos: </label><input type="text" name="apellido" id="apellido" maxlength="100" size="50" required><br><br>
+        <label for="cynro">Calle y número: </label><input type="text" name="cynro" id="cynro" maxlength="100" size="50" required><br><br>
+        <label for="cpostal">Código Postal: </label><input type="number" name="cpostal" id="cpostal" min="1000" max="9000" maxlength="4">
+        <label for="ciudad">Ciudad: </label><input type="text" name="ciudad" id="ciudad" maxlength="30" size="10"><br><br>
+        <label for="provincia">Provincia: </label><input type="text" name="provincia" id="provincia" maxlength="30" size="10">
+        <label for="tel">Tel: </label><input type="tel" name="tel" id="tel" maxlength="13" size="10"><br><br>  
+        Opcion:<select></select>Escoja una opción<br><br>
+        <label for="cpersonal">Comentarios personales:</label><textarea name="cpersonal" id="cpersonal" rows="2" cols="50"></textarea>
+    </form>
+</body>
+</html>

@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        body{
+            background-color: gray;
+        }
+        p{
+            display: inline;
+            background-color: rgb(83, 83, 83);
+            color: white;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            padding: 2px;
+            font-size: small;
+            margin-left: 410px;
+            clear: both;
+        }
+        .labels{
+            display: inline;
+            float: left;
+            margin-right: 5px;
+            text-align: right;
+            
+        }
+        form{
+            margin-top: -10px;
+            border: 1px solid black;
+            border-bottom: 2px solid black;
+            padding: 30px;
+            width: 500px;
+            margin-bottom: 10px;
+            background-color: white;
+            margin-left: 400px;
+        }
+        #body{
+            margin-top: 50px;
+        }
+       
+    </style>
+    <title>Ejercicio 2 Adicional</title>
+</head>
+<body>
+   <div id="body"> 
+        <p >PERSONAL INFO</p>
+        <form action="#" method="get" name="perInf" class="perInf">
+            <div class="labels">
+                <label for="iEmail">Email Address: </label><br><br>
+                <label for="iPass">Password: </label><br><br>
+                <label for="gered">Gered: </label><br><br>
+                <label for="sYear">Date of Bird</label><br><br>
+            </div>
+            <div class="inputs">
+                <input type="email" size="20" id="iEmail"><br><br>
+                <input type="password" size="20" id="iPass"><br><br>
+                <select size="1"><option value="Male" selected>Male</option> <option value="Female">Female</option><option value="Other">Other</option></select><br><br>
+                
+                <select id="sMonth" name="sMonth">
+                    <option value="Jan" selected>Jan</option>
+                    <option value="Feb">Feb</option>
+                    <option value="Mar">Mar</option>
+                    <option value="Apr">Apr</option>
+                    <option value="May">May</option>
+                    <option value="Jun">Jun</option>
+                    <option value="Jul">Jul</option>
+                    <option value="Aug">Aug</option>
+                    <option value="Sep">Sep</option>
+                    <option value="Oct">Oct</option>
+                    <option value="Nov">Nov</option>
+                    <option value="Dec">Dec</option>
+                </select>
+                <select id="sDay" name="sDay">
+                    <option value="01" selected>01</option>
+                    <option value="02">02</option>
+                    <option value="03">03</option>
+                    <option value="04">04</option>
+                    <option value="05">05</option>
+                    <option value="06">06</option>
+                    <option value="07">07</option>
+                    <option value="08">08</option>
+                    <option value="09">09</option>
+                    <option value="10">10</option>
+                    <option value="11">11</option>
+                    <option value="12">12</option>
+                    <option value="13">13</option>
+                    <option value="14">14</option>
+                    <option value="15">15</option>
+                    <option value="16">16</option>
+                    <option value="17">17</option>
+                    <option value="18">18</option>
+                    <option value="19">19</option>
+                    <option value="20">20</option>
+                    <option value="21">21</option>
+                    <option value="22">22</option>
+                    <option value="23">23</option>
+                    <option value="24">24</option>
+                    <option value="25">25</option>
+                    <option value="26">26</option>
+                    <option value="27">27</option>
+                    <option value="28">28</option>
+                    <option value="29">29</option>
+                    <option value="30">30</option>
+                    <option value="31">31</option>
+                </select>
+                <select id="sYear" name="sYear">
+                    <option value="2000" selected>2000</option>
+                    <option value="2001">2001</option>
+                    <option value="2002">2002</option>
+                    <option value="2003">2003</option>
+                    <option value="2004">2004</option>
+                    <option value="2005">2005</option>
+                    <option value="2006">2006</option>
+                    <option value="2007">2007</option>
+                    <option value="2008">2008</option>
+                    <option value="2009">2009</option>
+                    <option value="2010">2010</option>
+                    <option value="2011">2011</option>
+                    <option value="2012">2012</option>
+                    <option value="2013">2013</option>
+                    <option value="2014">2014</option>
+                    <option value="2015">2015</option>
+                    <option value="2016">2016</option>
+                    <option value="2017">2017</option>
+                    <option value="2018">2018</option>
+                    <option value="2019">2019</option>
+                    <option value="2020">2020</option>
+                    <option value="2021">2021</option>
+                </select><br><br>
+            </div>
+        </form>
+        <p>PREFERENCES</p>
+        <form action="#" method="get" name="pref" class="pref">
+            <div class="labels">
+                <label>Favorite Color: </label> <br><br>
+                <label>Interents: </label>
+            </div>
+            <div class="inputs">
+                <input type="radio" name="blue" id="blue"><label for="blue">Blue </label>
+                <input type="radio" name="red" id="red"><label for="red">Red </label>
+                <input type="radio" name="green" id="green"><label for="green">Green </label><br><br>
+                
+                <input type="checkbox" name="news" id="news"><label for="news">News </label>
+                <input type="checkbox" name="news" id="sports" checked><label for="sports">Sports </label>
+                <input type="checkbox" name="news" id="entertainment"><label for="entertainment">Entertainment </label>
+                <input type="checkbox" name="news" id="automotive"><label for="automotive">Atomotive </label>
+            </div>
+        </form>
+    </div>
+</body>
+</html>

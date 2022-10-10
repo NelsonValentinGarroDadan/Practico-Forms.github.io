@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicio 1</title>
+</head>
+<body>
+    <form method="get" action="#">
+        <label for="nbre">Nombre: </label><input type="text" name="nbre" id="nbre" size="20" maxlength="30" placeholder="Escribe tu nombre" autocomplete="on" required>
+        <label for="apellido">Apellido: </label><input type="text" name="apellido" id="apellido" size="20" maxlength="30" placeholder="Escribe tu apellido" autocomplete="on" required><br><br>
+        <label for="direccion">Direccion: </label><input type="text" name="direccion" id="direccion" size="50" maxlength="100" placeholder="Escribe tu direccion" autocomplete="off" required><br><br>
+        <label for="tel">Tel: </label><input type="tel" name="tel" id="tel" size="19" maxlength="14" placeholder="Escribe tu telefono" autocomplete="off" required><br><br>
+        Sexo: <input type="Radio" name="sexo" value="Hombre"checked> Hombre <input type="Radio" name= "sexo" value="Mujer">Mujer <br><br>
+        <label for="email">E-mail: </label><input type="email" placeholder="example123@gmail.com" autocomplete="off" name="email" id="email" size="20" maxlength="30" required ><br><br>
+        <label for="edad">Edad: </label><input type="number" max="100" min="18" value="18" required><br><br>
+        Profesion: <select name="profesion" size="1" >
+            <option value="Carpintero">Carpintero</option>
+            <option value="Ingeniero">Ingeniero</option>
+            <option value="Programador" selected>Programador</option>
+            <option value="Futbolista">Futbolista</option>
+            <option value="Profesor">Profesor</option>   
+        </select><br><br>
+        Hobbies: 
+        <select name="profesion" size="5" multiple required>
+            <option value="Tocar el piano">Tocar el piano</option>
+            <option value="Cocer">Cocer</option>
+            <option value="Pintar">Pintar</option>
+            <option value="Observar pajaros">Observar pajaros</option>
+            <option value="Ir al gym">Ir al gym</option>   
+        </select><br><br>
+        Nacionalidad: <select name="nacionalidad" size="1" >
+            <option value="Argentina" selected>Argentino/a</option>
+            <option value="CHileno">Chileno/a</option>
+            <option value="Ecuatoriano">Ecuatoriano/a</option>
+            <option value="Japones">Japones/a</option>
+            <option value="Polaco">Polaco/a</option>   
+        </select><br><br>
+        <input type="submit" value="Enviar Todo">
+        <input type="reset"  value="Borrar Todo">
+    </form>
+</body>
+</html>
